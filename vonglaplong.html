@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        let seout;
+        seout= "<table border='1' width='300' cellspacing='o' cellpadding='3'"
+        for (i=1 ; i<=10; i++) {
+            seout = seout + "<tr>";
+         for(  y=1; y<=10; y++) {
+             seout=seout + "<td>" + i * y + "</td>";
+         }  
+         seout = seout + "</tr>";
+        
+         }
+         seout= seout + "</table>";
+         document.write(seout);
+         
+
+       
+   
+    </script>
+</body>
+</html>
